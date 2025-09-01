@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    /*make  center all div*/
+    body{
+      font-family: "Barlow Semi Condensed", sans-serif;
+      height: 100vh;
+      margin-left: 200px;;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    /*-color- -->*/
+    :root{
+      --Purple: hsl(260, 100%, 95%);
+      --purrpled: hsl(264, 82%, 80%);
+      --purpledd: hsl(263, 55%, 52%);
+      --Grey1: hsl(214, 17%, 92%);
+      --Grey2: hsl(0, 0%, 81%);
+      --Grey4: hsl(224, 10%, 45%);
+      --Grey5: hsl(217, 19%, 35%);
+      --DarkBlue: hsl(219, 29%, 14%);
+        }
+        main{
+          
+          margin:0 30px;
+        
+          
+        }
+    .row1{
+      
+      display: grid;
+      grid-template-columns:repeat(2,1fr);
+      list-style: none;
+      gap: 2rem;
+      
+      
+      
+      
+      
+    }
+    img{
+      border-radius: 50%;
+      border:1px solid var(--purrpled);
+      object-fit: cover;
+      height: 25px;
+      
+
+    }
+    
+  
+    .row1
+    .pe1,.pe4{
+      margin-left: -200px;;
+    
+      
+      color: aliceblue;
+  
+      background: var(--purpledd);
+      padding:20px ;
+
+      
+      box-shadow: 30px 20px 80px black;
+      border-radius: 3%;
+      
+    }
+    
+    .pe4{
+      background-color: var(--DarkBlue);
+
+
+    }
+    .title{
+      text-transform: capitalize;
+      font-weight: bold;
+      
+
+      display: flex;
+      align-items: center;;
+      gap: 10px;
+
+    }
+    
+    .title p{
+      margin-top: 3px;
+      font-size: 11px;;
+    
+    }
+    .pe1 p,.pe4 p{
+      margin-bottom: -3px;
+    }
+    .pe1 h2,.pe4 h2,.pe3 h2,.pe2 h2{
+      font-size: 16px;;
+    }
+    .title h3{
+      font-size: 13px;;
+      font-weight: lighter;
+
+    }
+    .pe3{
+      background-color:white;
+      color: var(--Grey5);
+      margin: 0 170px;
+      margin-right: 208px;
+      
+      
+      margin-left: -200px;;
+      padding: 35px;
+      
+      
+      box-shadow: 30px 20px 80px black;
+      border-radius: 3%;
+    }
+
+    .pe2{
+      background-color:var(--Grey5);
+      color:white;
+      padding: 35px;
+      border-radius: 3%;
+
+    }
+    .pe2 img{
+      border: none;
+    }
+    .pe2 h2{
+      margin-top: -5px;;
+    }
+    
+     
+    .pe3 p,.pe2 p{
+      font-size: 13px;;
+
+    }
+    .pe3 h2{
+      margin-top:-14px;
+      margin-right: 10px;;
+      
+    }
+    .pe3 img{
+      border: none;
+    }
+    .pe3 .title p,.pe2 .tittle p{
+      font-size: smaller;
+
+    }
+    aside{
+      
+      height: 80vh;
+      
+      border-radius: 3%;
+      
+      
+      
+    
+    }
+    .pe5{
+      background-color:antiquewhite;
+      margin-right: 200px;;
+      padding:31px;
+      
+      border-radius: 3%;
+      color: var(--Grey5);
+      box-shadow: 30px 20px 90px black;
+      
+    }
+    .pe5 img{
+      border: none;
+    }
+    .pe5 h2{
+      margin-top: -15px;
+    }
+    
+  footer{
+    width: 100%;
+    height: 25px;;
+    clear: both;
+    
+  margin-top: 800px;
+    
+  }
+
+
+  footer
+  .att{
+    background-color:yellowgreen;
+    margin-left: -1000px;
+    font-size: 20px;
+  }
+  @media (max-width:650px) {
+    body{
+      min-width: 150px;
+      display: block;;
+    }
+    .row1{
+      display: block;
+      
+    }
+    .pe2,.pe3{
+      margin:20px -200px;
+      margin-right: 2px;;
+    
+      
+    }
+    aside{
+      margin:0 -170px;
+      margin-left: -130px;;
+    }
+
+    footer{
+      margin: 60px;
+      text-align: center;
+      margin-left: 380px;
+    }
+  }
+  </style>
+</head>
+<body>
+  <main>
+    <ul class="row1">
+      <li>
+        <div class="pe1">
+          
+          <div class="title">
+           <img src="image-daniel.jpg" alt="">
+           <h3 >
+            daniel clifford
+            <p>
+  Verified Graduate
+  </p>
+</h3>
+</div>
+<h2>
+  I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+  in the company I joined. I honestly feel I got every penny’s worth.
+</h2>
+<p>
+  “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+  transition and have heard some people who had an amazing experience here. I signed up 
+  for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+  The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+  the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+</p>
+</div>
+</li>
+<li>
+  <div class="pe2">
+    <div class="title">
+      <img src="image-jonathan.jpg" alt="">
+      <h3>
+  Jonathan Walters
+  <p>
+  Verified Graduate
+  </p>
+  </h3>
+    </div>
+    <h2>
+  The team was very supportive and kept me motivated
+</h2>
+<p>
+  “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+  for a big company. This was one of the best investments I’ve made in myself. ”
+  </p>
+  </div>
+</li>
+<li>
+  <div class="pe3">
+    <div class="title">
+      <img src="image-jeanette.jpg" alt="">
+      <h3>
+  Jeanette Harmon
+  <p>
+  Verified Graduate
+  </p>
+  </h3>
+    </div>
+    <h2>
+  An overall wonderful and rewarding experience
+    </h2>
+<p>
+  “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+  while doing something I love. ”
+</p>
+  </div>
+</li>
+<li>
+  <div class="pe4">
+    <div class="title">
+      <img src="image-patrick.jpg" alt="">
+      <h3>
+  Patrick Abrams
+  <p>
+  Verified Graduate
+  </p>
+      </h3>
+    </div>
+    <h2>
+  Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+  learning from their experiences was easy.
+    </h2>
+    <p>
+  “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+  gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+  junior developer. The standard is above the rest. You will get the personal attention you need from 
+  an incredible community of smart and amazing people. ”
+    </p>
+  </div>
+</li>
+    </ul>
+    </main>
+    <aside>
+      <div class="pe5">
+        <div class="title">
+          <img src="image-kira.jpg" alt="">
+          <h3>
+  Kira Whittle
+  
+  <p>
+  Verified Graduate
+  </p>
+  </h3>
+  
+        </div>
+<h2>
+  Such a life-changing experience. Highly recommended!
+</h2>
+<p>
+  “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+  professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+  student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+  did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+  project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+  could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+  experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+  100% recommend! ”
+</p>
+  </div>
+</aside>
+
+
+  <footer>
+  <div class="att">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Eng.entesar</a>.
+    
+  </div>
+  </footer>
+  </body>
+
+</html>
